@@ -1,7 +1,7 @@
 let unit;
 const SIZE = parseInt(prompt('game size:'));
 // const SIZE = 3;
-const PWB = prompt('play against bot:') == 'yes';
+const PWB = prompt('play against bot: (yes/no)') == 'yes';
 // const PWB = false;
 
 let board = [];
